@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Mws.Test")]
+[assembly: AssemblyTitle("MarketplaceWebService")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("Mws.Test")]
+[assembly: AssemblyProduct("MarketplaceWebService")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("7c1e9556-90ed-4a64-aaa3-da858dff5e17")]
+[assembly: Guid("2c4551ba-7169-41ae-a743-9f2d788a328f")]
 
 // Version information for an assembly consists of the following four values:
 //

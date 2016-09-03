@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SourceCode", "SourceCode", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mws.Test", "Mws.Test\Mws.Test.csproj", "{7C1E9556-90ED-4A64-AAA3-DA858DFF5E17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketplaceWebService", "MarketplaceWebService\MarketplaceWebService.csproj", "{2C4551BA-7169-41AE-A743-9F2D788A328F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,8 +19,15 @@ Global
 		{7C1E9556-90ED-4A64-AAA3-DA858DFF5E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C1E9556-90ED-4A64-AAA3-DA858DFF5E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C1E9556-90ED-4A64-AAA3-DA858DFF5E17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C4551BA-7169-41AE-A743-9F2D788A328F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C4551BA-7169-41AE-A743-9F2D788A328F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C4551BA-7169-41AE-A743-9F2D788A328F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C4551BA-7169-41AE-A743-9F2D788A328F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2C4551BA-7169-41AE-A743-9F2D788A328F} = {A9786369-68E6-4702-B534-ACCFF103CBF2}
 	EndGlobalSection
 EndGlobal
