@@ -36,14 +36,14 @@ namespace Mws.Test
             // TODO: Set the below configuration variables before attempting to run
 
             // Developer AWS access key
-            string accessKey = "AKIAJVMISPUZ56YEUOYA";
+            string accessKey = "example";
 
 
             // Developer AWS secret key
-            string secretKey = "DlYH+6nJ+AV7MEsHOY22Lbxno2WXoMhwWuRW2Vm1";
+            string secretKey = "example";
 
             // The client application name
-            string appName = "Rapid.AmazonMws";
+            string appName = "example";
 
             // The client application version
             string appVersion = "1.0";
@@ -107,7 +107,7 @@ namespace Mws.Test
         {
             // Create a request.
             GetServiceStatusRequest request = new GetServiceStatusRequest();
-            string sellerId = "AUF7WROMBPVN2";
+            string sellerId = "example";
             request.SellerId = sellerId;
             string mwsAuthToken = "example";
             request.MWSAuthToken = mwsAuthToken;
