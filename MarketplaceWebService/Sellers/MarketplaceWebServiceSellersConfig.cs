@@ -23,7 +23,8 @@ namespace MarketplaceWebService.Sellers
     /// <summary>
     /// Configuration for a connection
     /// </summary>
-    public class MarketplaceWebServiceSellersConfig {
+    public class MarketplaceWebServiceSellersConfig : MarketplaceWebServiceConfigBase
+    {
 
         private const string DEFAULT_SERVICE_PATH = "Sellers/2011-07-01";
         private const string SERVICE_VERSION = "2011-07-01";
@@ -38,7 +39,7 @@ namespace MarketplaceWebService.Sellers
         /// <returns>A clone of the configured connection</returns>
         internal MwsConnection CopyConnection()
         {
-            return (MwsConnection) cc.Clone();
+            return (MwsConnection)cc.Clone();
         }
 
         /// <summary>
@@ -112,7 +113,7 @@ namespace MarketplaceWebService.Sellers
         /// </summary>
         public string UserAgent
         {
-            get { return cc.UserAgent ; }
+            get { return cc.UserAgent; }
         }
 
         /// <summary>
@@ -132,7 +133,7 @@ namespace MarketplaceWebService.Sellers
             string programmingLanguage,
             params string[] additionalNameValuePairs)
         {
-            cc.SetUserAgent(applicationName,applicationVersion,programmingLanguage,additionalNameValuePairs);
+            cc.SetUserAgent(applicationName, applicationVersion, programmingLanguage, additionalNameValuePairs);
         }
 
         /// <summary>
@@ -178,12 +179,12 @@ namespace MarketplaceWebService.Sellers
 
                     // Strip slashes
                     String path = fullUri.PathAndQuery;
-                    if(path != null)
+                    if (path != null)
                     {
-                        path = path.Trim(new[] {'/'});
+                        path = path.Trim(new[] { '/' });
                     }
 
-                    if(String.IsNullOrEmpty(path))
+                    if (String.IsNullOrEmpty(path))
                     {
                         this.servicePath = DEFAULT_SERVICE_PATH;
                     }
@@ -258,8 +259,8 @@ namespace MarketplaceWebService.Sellers
         /// </summary>
         public int ProxyPort
         {
-        get { return cc.ProxyPort; }
-        set { cc.ProxyPort = value; }
+            get { return cc.ProxyPort; }
+            set { cc.ProxyPort = value; }
         }
 
         /// <summary>

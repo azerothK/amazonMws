@@ -24,7 +24,7 @@ namespace MarketplaceWebService.Sellers
     /// <summary>
     /// MarketplaceWebServiceSellersClient is an implementation of MarketplaceWebServiceSellers
     /// </summary>
-    public class MarketplaceWebServiceSellersClient : MarketplaceWebServiceSellers 
+    public class MarketplaceWebServiceSellersClient : IMarketplaceWebServiceSellers 
     {
 
         private const string libraryVersion = "2015-06-18";

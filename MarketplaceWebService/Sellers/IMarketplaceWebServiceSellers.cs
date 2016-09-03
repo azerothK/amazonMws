@@ -22,7 +22,7 @@ namespace MarketplaceWebService.Sellers
     /// <summary>
     /// This is the Sellers API section of the Marketplace Web Service.
     /// </summary>
-    public interface MarketplaceWebServiceSellers 
+    public interface IMarketplaceWebServiceSellers 
     {
 
         /// <summary>

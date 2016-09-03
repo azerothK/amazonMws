@@ -33,7 +33,7 @@ namespace MarketplaceWebService.Sellers.Mock
     ///
     /// Note, current Mock Service implementation does not validate requests
     /// </remarks>
-    public class MarketplaceWebServiceSellersMock : MarketplaceWebServiceSellers
+    public class MarketplaceWebServiceSellersMock : IMarketplaceWebServiceSellers
     {
 
         public GetServiceStatusResponse GetServiceStatus(GetServiceStatusRequest request)
